@@ -3,11 +3,11 @@
 Authors: Mahshad Hashemi, Sharjeel Mustafa, Alioune Ngom and Luis Rueda
 
 ## Introduction
-Graph Neural Networks (GNNs) are a new type of neural networks that operated on complex interconnected data for various tasks such as node prediction. Such appraoches benefit from using the relationships of a data entity to make holisitc predictions, for example using the neighbours and connections of a cell for type prediction.
+Graph Neural Networks (GNNs) are a new type of neural network that operates on complex interconnected data for various tasks such as node prediction. These approaches benefit from using the relationships of nodes to make holistic predictions, for example, using the neighbours and connections of a cell for type prediction.
 
-The abilitiy to utilize interconnected data is particularly advantages in the field of computational biology where the interactions encode important information. However, such data often exhibits heterophily (i.e., that dissimilar nodes are connected) which most current GNNs do not account for. 
+Utilizing interconnected data is particularly advantageous in computational biology, where the interactions encode important information. However, such data often exhibits heterophily (i.e., dissimilar nodes are connected), which most current GNNs do not account for. 
 
-To this end we propose HeteroGraphNet, a novel GNN approach that employes randomg walks and a gated design for efficient node prediction in heterophilious data.
+To this end, we propose HeteroGraphNet, a novel GNN approach that employs random walks and a gated design for efficient node prediction in heterophilic data.
 
 
 ## Dependences
